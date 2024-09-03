@@ -43,6 +43,6 @@ jobs:
 
       - name: run docker exec
         run: |
-          docker exec serving_base ls -la /usr/local/apache2/httdocs
+          docker exec serving_base ls -la /usr/local/apache2/htdocs
           
 # Hola

@@ -1,0 +1,46 @@
+/* Estilo general */
+.skills-section {
+  padding: 20px;
+  background-color: #2c2c2c; /* Fondo oscuro */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+/* Estilo del título */
+.skills-section h2 {
+  color: #dcdcdc; /* Texto claro */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Contenedor de habilidades */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap; /* Permitir que los elementos se acomoden en varias líneas */
+  justify-content: center;
+  gap: 10px; /* Espacio entre los "badges" */
+}
+
+/* Estilo de los "badges" o etiquetas */
+.skills-container span {
+  background-color: #00ccff; /* Color de fondo azul claro */
+  color: #1e1e1e; /* Texto oscuro */
+  padding: 10px 15px;
+  border-radius: 20px; /* Bordes redondeados */
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap; /* Evitar que las palabras se dividan en varias líneas */
+  margin-bottom: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Efecto hover en las habilidades */
+.skills-container span:hover {
+  transform: scale(1.1); /* Aumentar tamaño al pasar el mouse */
+  background-color: #ff9900; /* Cambiar el color de fondo a naranja claro */
+}

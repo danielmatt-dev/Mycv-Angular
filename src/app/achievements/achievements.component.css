@@ -1,0 +1,46 @@
+/* Estilo general para la sección de certificados */
+.certificates-section {
+  padding: 20px;
+  background-color: #2c2c2c; /* Fondo oscuro */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  width: 100%;
+  text-align: left;
+}
+
+/* Estilo del título de la sección */
+.certificates-section h2 {
+  color: #dcdcdc; /* Texto claro */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Lista de certificados */
+.certificates-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.certificates-list li {
+  color: #dcdcdc; /* Texto claro */
+  font-size: 18px; /* Tamaño de fuente */
+  font-weight: bold; /* Negrita */
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px; /* Indentación */
+  position: relative;
+}
+
+.certificates-list li::before {
+  content: '🏅'; /* Emoji de medalla para cada certificado */
+  font-size: 20px; /* Tamaño del emoji */
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-right: 10px;
+}

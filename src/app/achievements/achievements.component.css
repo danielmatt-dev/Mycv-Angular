@@ -37,7 +37,6 @@
 }
 
 .certificates-list li::before {
-  content: '🏅'; /* Emoji de medalla para cada certificado */
   font-size: 20px; /* Tamaño del emoji */
   position: absolute;
   left: 0;

@@ -1,0 +1,11 @@
+<h3>&lt;!-- Education --&gt;</h3>
+
+<div class="education-section">
+  <ul *ngFor="let education of educationList" class="education-item">
+    <li>
+      <p class="education-date">//{{education.fecha}}</p>
+      <p class="education-title">{{ education.titulo }}</p>
+      <p class="education-institution">{{ education.institucion }}</p>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,57 @@
+/* Fondo oscuro global para la sección de educación */
+body {
+  background-color: #1e1e1e; /* Fondo oscuro */
+  color: #dcdcdc; /* Texto claro */
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.education-section {
+  padding: 20px;
+  width: 100%;
+  background-color: #2c2c2c; /* Fondo oscuro del contenedor */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra */
+  margin: 0 auto; /* Centrado */
+}
+
+/* Título de la sección de educación */
+h3 {
+  background-color: #2c2c2c; /* Fondo oscuro */
+  color: #dcdcdc; /* Texto claro */
+  padding: 10px 15px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  text-align: center; /* Centrar el texto */
+  font-size: 24px; /* Tamaño de fuente */
+  font-weight: bold; /* Negrita */
+}
+
+/* Elemento de cada ítem de la lista de educación */
+.education-item {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+/* Estilo para la fecha de educación */
+.education-date {
+  font-size: 18px;
+  color: #00ccff; /* Azul claro */
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Estilo para el título de educación */
+.education-title {
+  font-size: 20px;
+  color: #ff9900; /* Naranja claro */
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* Estilo para la institución */
+.education-institution {
+  font-size: 16px;
+  color: #888; /* Gris claro */
+  margin-top: 5px;
+}

@@ -27,11 +27,7 @@ jobs:
 
       - name: show dir
         run: |
-<<<<<<< HEAD
-          ls -la dist
-=======
           ls -la dist/mycv/browser
->>>>>>> release/1.0.0
 
       - name: download, run httpd image, container name serving_base
         run: |
